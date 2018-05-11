@@ -1,0 +1,4 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["bkKrq"]); }
+
+__d("XProfileIntroCardDismissSuggestedPhotosPromptAsyncController",["XController"],(function(a,b,c,d,e,f){e.exports=b("XController").create("/profile/intro/suggested_photos_prompt/dismiss/",{})}),null);
+__d("ProfileIntroCardSuggestedPhotosPrompt",["csx","AsyncRequest","DOM","Event","XProfileIntroCardDismissSuggestedPhotosPromptAsyncController","tidyEvent"],(function(a,b,c,d,e,f,g){function a(a,c){"use strict";var d=b("DOM").find(a,"._4oys");b("tidyEvent")(b("Event").listen(d,"click",function(d){b("DOM").replace(a,c);var e=b("XProfileIntroCardDismissSuggestedPhotosPromptAsyncController").getURIBuilder().getURI();new(b("AsyncRequest"))().setURI(e).send();d.stop()}))}e.exports=a}),null);
