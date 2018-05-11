@@ -147,3 +147,7 @@ header {
 #gitimg {
     height: 65px;
 }
+
+#devprof, #expin {
+    font-size: 35px;
+}
