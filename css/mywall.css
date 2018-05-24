@@ -1894,6 +1894,8 @@ h1.jprt-item-title {
   }
 }
 .wall-gallery {
+    height: 200px;
+    width: 200px;
     display: block;
     width: 100%;
     border-radius: 2px;
